@@ -1,0 +1,32 @@
+export module Application;
+
+import Animal;
+import Location;
+
+import <iostream>;
+
+namespace mod
+{
+export struct Application
+{
+	int run()
+	{
+		Dog dog;
+		Cat cat;
+
+		dog.watch();
+
+		std::cout << '\n';
+
+		cat.watch();
+
+		std::cout << '\n';
+
+		VetOffice::welcome("Hello.");
+		VetOffice::seeAnimal(dog);
+		VetOffice::seeAnimal(cat);
+
+		return 0;
+	}
+};
+}

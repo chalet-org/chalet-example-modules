@@ -1,0 +1,6 @@
+{
+	"C_Cpp.intelliSenseEngine": "Disabled",
+	"search.exclude": {
+		"build": true
+	}
+}

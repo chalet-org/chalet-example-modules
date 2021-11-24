@@ -1,0 +1,28 @@
+{
+	"workspace": "modules-project",
+	"version": "1.0.0",
+	"abstracts:*": {
+		"language": "C++",
+		"settings:Cxx": {
+			"cppStandard": "c++20",
+			"warnings": "pedantic"
+		}
+	},
+	"targets": {
+		"modules-project": {
+			"kind": "executable",
+			"location": "src",
+			"settings:Cxx": {
+				"cppModules": true
+			}
+		}
+	},
+	"distribution": {
+		"modules-project": {
+			"kind": "bundle",
+			"buildTargets": [
+				"modules-project"
+			]
+		}
+	}
+}
