@@ -16,13 +16,14 @@ export struct Application
 		if (!environment.check())
 			return 1;
 
-		Dog dog;
-		Cat cat;
+		std::cout << '\n';
 
+		Dog dog;
 		dog.watch();
 
 		std::cout << '\n';
 
+		Cat cat;
 		cat.watch();
 
 		std::cout << '\n';
