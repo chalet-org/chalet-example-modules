@@ -21,7 +21,7 @@
 			"location": "src/modules",
 			"settings:Cxx": {
 				"cppModules": true,
-				"links": [
+				"staticLinks": [
 					"library"
 				]
 			}
