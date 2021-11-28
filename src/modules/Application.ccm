@@ -4,6 +4,7 @@ import Animal;
 import Location;
 
 import <iostream>;
+import <library/LivableEnvironment.hpp>;
 
 namespace mod
 {
@@ -11,6 +12,10 @@ export struct Application
 {
 	int run()
 	{
+		LivableEnvironment environment;
+		if (!environment.check())
+			return 1;
+
 		Dog dog;
 		Cat cat;
 

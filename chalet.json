@@ -5,15 +5,25 @@
 		"language": "C++",
 		"settings:Cxx": {
 			"cppStandard": "c++20",
-			"warnings": "pedantic"
+			"warnings": "pedantic",
+			"includeDirs": [
+				"include"
+			]
 		}
 	},
 	"targets": {
+		"library": {
+			"kind": "staticLibrary",
+			"location": "src/library"
+		},
 		"modules-project": {
 			"kind": "executable",
-			"location": "src",
+			"location": "src/modules",
 			"settings:Cxx": {
-				"cppModules": true
+				"cppModules": true,
+				"links": [
+					"library"
+				]
 			}
 		}
 	},
