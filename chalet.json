@@ -1,6 +1,14 @@
 {
 	"workspace": "modules-project",
 	"version": "1.0.0",
+	"defaultConfigurations": [
+		"Release",
+		"Debug",
+		"MinSizeRel",
+		"RelWithDebInfo",
+		"RelStable",
+		"Profile"
+	],
 	"abstracts:*": {
 		"language": "C++",
 		"settings:Cxx": {
