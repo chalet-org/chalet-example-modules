@@ -22,17 +22,17 @@
 	"targets": {
 		"library": {
 			"kind": "staticLibrary",
-			"location": "src/library"
+			"files": "src/library/**.cpp"
 		},
 		"modules-project": {
 			"kind": "executable",
-			"location": "src/modules",
 			"settings:Cxx": {
 				"cppModules": true,
 				"staticLinks": [
 					"library"
 				]
-			}
+			},
+			"files": "src/modules/**.{ccm,ixx}"
 		}
 	},
 	"distribution": {

@@ -32,6 +32,8 @@ export struct Application
 		VetOffice::seeAnimal(dog);
 		VetOffice::seeAnimal(cat);
 
+		std::cout << std::endl;
+
 		return 0;
 	}
 };

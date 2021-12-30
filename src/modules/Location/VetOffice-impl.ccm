@@ -7,7 +7,7 @@ import <iostream>;
 
 namespace mod::VetOffice
 {
-export void welcome(const std::string inValue)
+export void welcome(const std::string& inValue)
 {
 	std::cout << "Good morning.\n";
 	std::cout << inValue << '\n';
