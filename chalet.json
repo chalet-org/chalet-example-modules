@@ -22,12 +22,20 @@
 	"targets": {
 		"library": {
 			"kind": "staticLibrary",
+			"settings:Cxx": {
+				"includeDirs": [
+					"src/library"
+				]
+			},
 			"files": "src/library/**.cpp"
 		},
 		"modules-project": {
 			"kind": "executable",
 			"settings:Cxx": {
 				"cppModules": true,
+				"includeDirs": [
+					"src/modules"
+				],
 				"staticLinks": [
 					"library"
 				]
