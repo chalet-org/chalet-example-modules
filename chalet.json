@@ -40,7 +40,7 @@
 					"library"
 				]
 			},
-			"files": "src/modules/**.{ccm,ixx}"
+			"files": "src/modules/**.{cc,ixx}"
 		}
 	},
 	"distribution": {
