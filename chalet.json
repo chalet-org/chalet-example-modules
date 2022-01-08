@@ -20,7 +20,7 @@
 		}
 	},
 	"targets": {
-		"library": {
+		"library-s": {
 			"kind": "staticLibrary",
 			"settings:Cxx": {
 				"includeDirs": [
@@ -37,7 +37,7 @@
 					"src/modules"
 				],
 				"staticLinks": [
-					"library"
+					"library-s"
 				]
 			},
 			"files": "src/modules/**.{cc,ixx}"
