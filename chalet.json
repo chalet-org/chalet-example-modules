@@ -18,7 +18,7 @@
 		}
 	},
 	"targets": {
-		"library": {
+		"library-s": {
 			"kind": "staticLibrary",
 			"settings:Cxx": {
 				"includeDirs": "src/library"
@@ -30,9 +30,9 @@
 			"settings:Cxx": {
 				"cppModules": true,
 				"includeDirs": "src/modules",
-				"staticLinks": "library"
+				"staticLinks": "library-s"
 			},
-			"files": "src/modules/**.{ccm,ixx}"
+			"files": "src/modules/**.{cc,ixx}"
 		}
 	},
 	"distribution": {
