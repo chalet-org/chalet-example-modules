@@ -14,18 +14,14 @@
 		"settings:Cxx": {
 			"cppStandard": "c++20",
 			"warnings": "pedantic",
-			"includeDirs": [
-				"include"
-			]
+			"includeDirs": "include"
 		}
 	},
 	"targets": {
 		"library": {
 			"kind": "staticLibrary",
 			"settings:Cxx": {
-				"includeDirs": [
-					"src/library"
-				]
+				"includeDirs": "src/library"
 			},
 			"files": "src/library/**.cpp"
 		},
@@ -33,12 +29,8 @@
 			"kind": "executable",
 			"settings:Cxx": {
 				"cppModules": true,
-				"includeDirs": [
-					"src/modules"
-				],
-				"staticLinks": [
-					"library"
-				]
+				"includeDirs": "src/modules",
+				"staticLinks": "library"
 			},
 			"files": "src/modules/**.{ccm,ixx}"
 		}
