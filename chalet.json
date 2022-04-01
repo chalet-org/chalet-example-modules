@@ -6,7 +6,7 @@
 		"Debug",
 		"MinSizeRel",
 		"RelWithDebInfo",
-		"RelStable",
+		"RelHighOpt",
 		"Profile"
 	],
 	"abstracts:*": {
