@@ -1,5 +1,5 @@
 {
-	"workspace": "modules-project",
+	"name": "modules-project",
 	"version": "1.0.0",
 	"defaultConfigurations": [
 		"Release",
