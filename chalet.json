@@ -12,6 +12,7 @@
 	"abstracts:*": {
 		"language": "C++",
 		"settings:Cxx": {
+			"staticRuntimeLibrary[:windows]": true,
 			"cppStandard": "c++20",
 			"warnings": "pedantic",
 			"includeDirs": "include"
