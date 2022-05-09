@@ -5,11 +5,13 @@
 			"name": "MSVC",
 			"type": "cppvsdbg",
 			"request": "launch",
-			"program": "${workspaceFolder}/build/x64-pc-windows-msvc17_Debug/modules-project.exe",
 			"args": [],
 			"stopAtEntry": false,
 			"cwd": "${workspaceFolder}",
-			"console": "integratedTerminal"
+			"console": "integratedTerminal",
+			"preLaunchTask": "Build: Debug",
+			"program": "${workspaceFolder}/build/x64-pc-windows-msvc17_Debug/modules-project.exe",
+			"envFile": "${workspaceFolder}/build/x64-pc-windows-msvc17_Debug/run.env"
 		}
 	]
 }
