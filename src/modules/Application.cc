@@ -1,10 +1,14 @@
+module;
+
+#include "library/LivableEnvironment.hpp"
+
 export module Application;
 
-import Animal;
-import Location;
+import Animal.Cat;
+import Animal.Dog;
+import Location.VetOffice;
 
 import <iostream>;
-import <library/LivableEnvironment.hpp>;
 
 namespace mod
 {

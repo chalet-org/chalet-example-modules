@@ -1,4 +1,4 @@
-export module Location.VetOffice:impl;
+export module Location.VetOffice;
 
 import Animal.Base;
 
