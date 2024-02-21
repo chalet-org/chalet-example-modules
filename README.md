@@ -10,7 +10,8 @@ To get started, [download Chalet](https://www.chalet-work.space/download), check
 | Name | Description |
 | ---- | ----------- |
 | main | The kitchen sink, where multiple module patterns are used. This only compiles with MSVC right now. |
-| gcc | Uses only the patterns that work with GCC modules - no re-exports, local header unit imports, private module fragments, or module partition units |
+| gcc | Requires GCC >= 11 - Uses only the patterns that work with GCC modules - no re-exports, local header unit imports, private module fragments, or module partition units |
+| clang | Requires Clang >= 16 - no re-exports, header unit imports, private module fragments, or module partition units |
 
 ### Debugging
 
