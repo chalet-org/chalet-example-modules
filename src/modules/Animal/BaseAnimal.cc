@@ -1,6 +1,8 @@
-export module Animal.Base;
+module;
 
-import <iostream>;
+#include <iostream>
+
+export module Animal.Base;
 
 namespace mod
 {

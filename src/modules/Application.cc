@@ -1,5 +1,7 @@
 module;
 
+#include <iostream>
+
 #include "library/LivableEnvironment.hpp"
 
 export module Application;
@@ -7,8 +9,6 @@ export module Application;
 import Animal.Cat;
 import Animal.Dog;
 import Location.VetOffice;
-
-import <iostream>;
 
 namespace mod
 {

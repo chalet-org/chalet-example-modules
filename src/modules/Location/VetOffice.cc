@@ -1,9 +1,11 @@
+module;
+
+#include <string>
+#include <iostream>
+
 export module Location.VetOffice;
 
 import Animal.Base;
-
-import <string>;
-import <iostream>;
 
 namespace mod::VetOffice
 {

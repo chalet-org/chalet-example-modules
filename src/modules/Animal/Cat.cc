@@ -1,8 +1,10 @@
+module;
+
+#include <iostream>
+
 export module Animal.Cat;
 
 import Animal.Base;
-
-import <iostream>;
 
 namespace mod
 {
